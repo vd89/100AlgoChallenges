@@ -1,33 +1,36 @@
+---
 Given a rectangular matrix of characters, add a border of asterisks(*) to it.
 
-Example
+**Example**
 
 For
 
-picture = ["abc",
-       "ded"]
+    picture = ["abc",
+           "ded"]
 the output should be
 
-addBorder(picture) = ["*****",
-                  "*abc*",
-                  "*ded*",
-                  "*****"]
-Hints
+    addBorder(picture) = ["*****",
+                      "*abc*",
+                      "*ded*",
+                      "*****"]
 
-concat()
-unshift()
-push()
-Input/Output
+**Hints**
+-   concat()
+-   unshift()
+-   push()
 
-[time limit] 4000ms (js)
-[input] array.string picture
+**Input/Output**
+- **[time limit] 4000ms (js)**
+- **[input] array.string picture**
+
 A non-empty array of non-empty equal-length strings.
 
-Guaranteed constraints:
+*Guaranteed constraints:*
 
 1 ≤ picture.length ≤ 5,
 
 1 ≤ picture[i].length ≤ 5.
 
-[output] array.string
+- **[output] array.string**
+
 The same matrix of characters, framed with a border of asterisks of width 1.
