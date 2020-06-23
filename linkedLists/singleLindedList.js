@@ -11,11 +11,11 @@ class SingleLinkedList {
 		this.head = null;
 		this.size = 0;
 	}
-	isEmpyt() {
+	isEmpty() {
 		return this.size == 0;
 	}
 
-	//Insettion
+	//Insertion
 	addToHead(value) {
 		let newNode = new Node(value);
 		if (this.head == null) {
@@ -84,17 +84,17 @@ class SingleLinkedList {
 	}
 }
 
-const singl = new SingleLinkedList();
-singl.addToHead(1);
-singl.addToHead(11);
-singl.addToHead(12);
-singl.addToHead(20);
+const singly = new SingleLinkedList();
+singly.addToHead(1);
+singly.addToHead(11);
+singly.addToHead(12);
+singly.addToHead(20);
 
-// singl.remove(11);
+// singly.remove(11);
 // singl.remove(20);
 
 // singl.removeAtHead();
 
-singl.find(11);
+singly.find(11);
 
-console.log(singl);
+console.log(singly);
